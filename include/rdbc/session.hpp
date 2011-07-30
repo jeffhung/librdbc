@@ -10,7 +10,6 @@ namespace rdbc {
  *       rdbc::manager will handle session pooling for us. However, this class
  *       exists in case we need to create a separate session explicitly.
  */
-template <class Engine>
 class session
 {
 public:

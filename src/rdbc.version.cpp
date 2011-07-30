@@ -9,7 +9,7 @@ version_t g_version = {
 	RDBC_VERSION_BUILD,
 };
 
-version_t version()
+const version_t& version()
 {
 	return g_version;
 }

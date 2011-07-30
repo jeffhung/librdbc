@@ -16,7 +16,7 @@ struct version_t
 	int build;
 };
 
-version_t version();
+const version_t& version();
 
 } // namespace rdbc
 
